@@ -1,0 +1,130 @@
+.germania-one-regular {
+    font-family: "Germania One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Define a fonte do texto */
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* Remove o preenchimento padrão */
+    background-color: #f4f4f4; /* Define a cor de fundo da página */
+}
+
+header {
+    background: #006400; /* Define a cor de fundo do cabeçalho */
+    color: #FFD700; /* Define a cor do texto no cabeçalho */
+    padding: 20px 0; /* Adiciona preenchimento acima e abaixo do cabeçalho */
+    text-align: center; /* Centraliza o texto no cabeçalho */
+}
+
+header .container {
+    width: 80%; /* Define a largura do contêiner do cabeçalho */
+    margin: 0 auto; /* Centraliza o contêiner horizontalmente */
+}
+
+header nav a {
+    color: #fff; /* Define a cor do texto dos links de navegação */
+    margin: 0 15px; /* Adiciona margem horizontal aos links */
+    text-decoration: none; /* Remove a sublinha dos links */
+}
+
+section {
+    padding: 40px 0; /* Adiciona preenchimento acima e abaixo das seções */
+    text-align: center; /* Centraliza o texto nas seções */
+}
+
+section#descricao {
+    background: #fff; /* Define a cor de fundo da seção de descrição */
+}
+
+section#planos {
+    background: #e2e2e2; /* Define a cor de fundo da seção de planos */
+}
+
+.plano {
+    background: #fff; /* Define a cor de fundo dos planos */
+    padding: 20px; /* Adiciona preenchimento dentro dos planos */
+    margin: 20px auto; /* Adiciona margem acima e abaixo dos planos e centraliza horizontalmente */
+    width: 80%; /* Define a largura dos planos */
+    border-radius: 5px; /* Adiciona bordas arredondadas aos planos */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra aos planos */
+}
+
+.plano h3 {
+    margin: 0; /* Remove a margem dos títulos dos planos */
+    font-family: "Germania One", system-ui; /* Aplica a fonte Germania One */
+    font-weight: 400; /* Define o peso da fonte */
+}
+
+.plano button {
+    background: #333; /* Define a cor de fundo dos botões dos planos */
+    color: #fff; /* Define a cor do texto dos botões */
+    border: none; /* Remove a borda dos botões */
+    padding: 10px 20px; /* Adiciona preenchimento dentro dos botões */
+    cursor: pointer; /* Muda o cursor para uma mãozinha ao passar sobre os botões */
+    border-radius: 5px; /* Adiciona bordas arredondadas aos botões */
+    transition: background 0.3s; /* Suaviza a transição de cor ao passar o mouse */
+}
+
+.plano button:hover {
+    background: #6A0DAD; /* Muda a cor de fundo dos botões ao passar o mouse sobre eles */
+}
+
+section#login form {
+    background: #fff; /* Define a cor de fundo do formulário de login */
+    padding: 20px; /* Adiciona preenchimento dentro do formulário */
+    margin: 0 auto; /* Centraliza o formulário horizontalmente */
+    width: 80%; /* Define a largura do formulário */
+    max-width: 400px; /* Define a largura máxima do formulário */
+    border-radius: 5px; /* Adiciona bordas arredondadas ao formulário */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra ao formulário */
+}
+
+section#login label {
+    display: block; /* Faz com que os rótulos ocupem toda a largura disponível */
+    margin: 10px 0 5px; /* Adiciona margem acima e abaixo dos rótulos */
+}
+
+section#login input {
+    width: 100%; /* Define a largura dos campos de entrada */
+    padding: 10px; /* Adiciona preenchimento dentro dos campos de entrada */
+    margin: 5px 0 20px; /* Adiciona margem acima e abaixo dos campos de entrada */
+    border: 1px solid #ddd; /* Define a borda dos campos de entrada */
+    border-radius: 5px; /* Adiciona bordas arredondadas aos campos de entrada */
+}
+
+section#login button {
+    background: #013220; /* Define a cor de fundo do botão de login */
+    color: #FFD700; /* Define a cor do texto do botão */
+    border: none; /* Remove a borda do botão */
+    padding: 10px 20px; /* Adiciona preenchimento dentro do botão */
+    cursor: pointer; /* Muda o cursor para uma mãozinha ao passar sobre o botão */
+    border-radius: 5px; /* Adiciona bordas arredondadas ao botão */
+    transition: background 0.3s; /* Suaviza a transição de cor ao passar o mouse */
+}
+
+section#login button:hover {
+    background: #555; /* Muda a cor de fundo do botão ao passar o mouse sobre ele */
+}
+
+footer {
+    background: #006400; /* Define a cor de fundo do rodapé */
+    color: #FFD700; /* Define a cor do texto no rodapé */
+    padding: 10px 0; /* Adiciona preenchimento acima e abaixo do rodapé */
+    text-align: center; /* Centraliza o texto no rodapé */
+}
+
+/* Estilos para imagens simétricas */
+#imagem-livro {
+    text-align: center; /* Centraliza as imagens na seção */
+    margin: 20px 0; /* Adiciona margem acima e abaixo da seção */
+}
+
+.imagem-simetrica {
+    width: 200px; /* Largura fixa para as imagens */
+    height: 300px; /* Altura fixa para garantir simetria */
+    margin: 10px; /* Espaçamento entre as imagens */
+    display: inline-block; /* Para que as imagens fiquem lado a lado */
+    object-fit: cover; /* Garante que a imagem preencha o espaço */
+}
